@@ -1,0 +1,361 @@
+*{
+	padding: 0px;
+	margin: 0px;
+
+	color: #000000;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+
+
+
+
+
+/*
+.nav{
+	background-color: #919a6a;
+	height: 150px;
+	width: 100%;
+}
+*/
+.footer{
+	background-color: #303030;
+
+	width: 100%;
+}
+
+.header_links 
+{
+	width: 95%;
+	
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	margin: 0 auto;
+	padding-top: 10px;
+
+	
+}
+
+.span{
+	margin-left: 5px;
+	margin-bottom: 20px;
+	font-size: 18px;
+
+	font-weight: lighter;
+	color: white;
+	padding: 10px;
+
+}
+
+.span_2{
+	margin-left: 5px;
+	margin-bottom: 20px;
+	font-size: 40px;
+	background-color: #ff000029;
+
+	color: #4a4545;
+	padding-top: : 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+}
+
+.nav_links{
+	background-color: silver;
+	height: 25px;
+
+
+}
+
+.input{
+	color: white;
+	background-color: grey;
+	padding: 6px;
+	border: silver;
+}
+
+.register_form{
+	font-size: 16px;
+	color: white;
+	width: 75%;
+	background-color: #e4e4d4;
+	padding: 6px;
+	border-bottom:  1px solid silver;;
+	border-right:  1px solid #303030;
+	border-left: 1px solid #303030;
+	border-top: 1px solid #303030;
+
+	
+}
+
+.register{
+	color: white;
+	background-color: grey;
+	padding: 6px;
+	border: silver;;
+
+}
+
+.motto{
+	
+	color: white;
+	font-size: 20px;
+	font-family: Helvetica;
+	font-variant-caps: unicase;
+	text-align: left;
+
+}
+
+
+.header_links ul{
+	
+	list-style-type: none;
+	background-color: white;
+
+}
+
+.header_div{
+	width: 85%;
+	margin: 0 auto;
+	height: 110px;
+
+}
+
+.footer_div{
+	width: 85%;
+	margin: 0 auto;
+	height: 30px;
+
+}
+
+
+
+.header_links ul li{
+	display: inline;
+	padding: 5px;
+	font-size: 16px;
+	color: white;
+	color: black;
+	
+}
+
+.content{
+
+	font-size: 16px;
+}
+
+.form{
+	padding-left: 15%;
+}
+
+.search{
+	width: 80%;
+	padding: 07px;
+	text-align: center;
+}
+
+.search_word{
+	text-align: center;
+	font-variant-caps: unicase;
+	color: white;
+	font-size: 24px;
+}
+
+
+
+.content_div {
+	margin-top: 40px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #303030;
+}
+
+.shona_header{
+	font-size: 24px;
+	font-variant-caps: petite-caps;
+	padding: 4px;
+	
+}
+
+.shona_article{
+	font-size: 16px;
+	padding: 4px;
+
+}
+
+.english_header{
+	font-size: 24px;
+	font-variant-caps: petite-caps;
+	padding: 4px;
+
+}
+
+.english_article{
+	font-size: 16px;
+	padding: 4px;
+}
+
+.content_word{
+	margin-top: 40px;
+	width: 65%;
+	margin: 0 auto;
+	padding: 4px;
+	width: 80%;
+
+}
+
+.content_webmaster{
+	margin-top: 40px;
+	width: 95%;
+	margin: 0 auto;
+	padding: 4px;
+
+}
+
+.content_words{
+	margin-top: 40px;
+	width: 25%;
+	margin: 0 auto;
+	padding: 4px;
+	border: 1px solid silver;
+
+}
+
+.content_wordss{
+	margin-top: 40px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 4px;
+
+
+}
+
+.content_featured
+{
+
+	width: 55%;
+	padding: 10px;
+
+
+}
+
+.shona_featured{
+	font-variant-caps: petite-caps;
+	font-size: 24px;
+	padding: 4px;
+	background-color: #501b1b2e;
+	color: white;
+}
+
+h1{
+	font-size: 20px;
+	font-variant-caps: petite-caps;
+	color: grey;
+}
+
+.word{
+	font-size: 30px;
+}
+
+.image{
+	width: 300px;
+}
+
+.shona_featured_article{
+	padding: 4px;
+}
+
+
+.definition{
+	font-size: 30px;
+}
+
+.Usage{
+	font-size: 30px;
+}
+
+.actual_usage
+{
+	font-size: 30px;
+
+}
+
+.more{
+	display: flex;
+}
+
+.web{
+	width: 50%;
+}
+
+.traditional{
+	width: 50%;
+}
+
+.languages{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid silver;
+	padding-bottom: 20px;
+}
+
+.main_definition{
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+		border: 1px solid silver;
+			height: auto;
+}
+
+.aside{
+	width: 25%;
+	height:500px;
+	background-color: #501b1b0a;
+	margin: 0 auto;
+	padding-left: 10px;
+	border: 1px solid silver;; 
+}
+
+.asided{
+	height: auto;
+	background-color: #c0c1c12b;
+	margin: 0 auto;
+	width: 30%;
+
+	border: 1px solid silver;
+}
+
+.first_name{
+	padding: 3px;
+	width: 35%;
+
+}
+
+.last_name{
+	padding: 3px;
+	width: 35%;
+}
+
+.submit{
+	color: white;
+	background-color: grey;
+	padding: 6px;
+	border: grey;
+}
+
+.form_register{
+	margin-left:  10%;
+}
+
+
+
